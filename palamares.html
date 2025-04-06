@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Trophées de Cristiano Ronaldo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.6) blur(2px);
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 20px;
+      color: white;
+      text-shadow: 2px 2px 10px #000;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    section.content {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.65);
+      border-radius: 15px;
+      margin-top: 40px;
+      text-shadow: 1px 1px 6px #000;
+    }
+
+    .trophy {
+      margin-bottom: 20px;
+    }
+
+    .trophy h2 {
+      font-size: 1.5em;
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.7;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      color: white;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 2px solid white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: white;
+      color: black;
+    }
+
+    @keyframes fadeIn {
+      0% {opacity: 0; transform: translateY(-20px);}
+      100% {opacity: 1; transform: translateY(0);}
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <video class="video-bg" autoplay muted loop playsinline>
+    <source src="MAMAMA.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo HTML5.
+  </video>
+
+  <header>
+    <h1>Trophées de Cristiano Ronaldo</h1>
+    <p>Un palmarès exceptionnel qui témoigne de sa légende vivante.</p>
+    <a class="button" href="nouveau 1234567890IIIII.html">← Retour à l'accueil</a>
+  </header>
+
+  <section class="content">
+    <div class="trophy">
+      <h2>🏆 Ballons d'Or</h2>
+      <ul>
+        <li>5 Ballons d'Or : 2008, 2013, 2014, 2016, 2017</li>
+      </ul>
+    </div>
+
+    <div class="trophy">
+      <h2>⚽ Ligue des Champions</h2>
+      <ul>
+        <li>5 titres : 1 avec Manchester United (2008), 4 avec le Real Madrid (2014, 2016, 2017, 2018)</li>
+      </ul>
+    </div>
+
+    <div class="trophy">
+      <h2>🌍 Compétitions internationales</h2>
+      <ul>
+        <li>Euro 2016 avec le Portugal</li>
+        <li>Ligue des Nations 2019 avec le Portugal</li>
+      </ul>
+    </div>
+
+    <div class="trophy">
+      <h2>🏆 Championnats nationaux</h2>
+      <ul>
+        <li>Premier League : 3 titres avec Manchester United</li>
+        <li>La Liga : 2 titres avec le Real Madrid</li>
+        <li>Serie A : 2 titres avec la Juventus</li>
+      </ul>
+    </div>
+
+    <div class="trophy">
+      <h2>🔝 Autres records</h2>
+      <ul>
+        <li>Meilleur buteur de l'histoire du Real Madrid</li>
+        <li>+800 buts en carrière</li>
+        <li>Recordman de buts en Ligue des Champions</li>
+        <li>Meilleur buteur en sélection nationale</li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
